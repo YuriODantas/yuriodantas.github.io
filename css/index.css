@@ -7,12 +7,6 @@ header {
     padding: 10px 20px;
 }
 
-h1 {
-    font-family: 'Press Start 2P', cursive;
-    color: #05C46B;
-    text-shadow: 5px 5px 0px #000;
-}
-
 nav {
     text-align: right;
 }
