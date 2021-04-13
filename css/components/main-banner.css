@@ -1,4 +1,4 @@
-.banner {
+.main-banner {
     box-sizing: border-box;
     background-image: url("../../assets/img/background-banner.png");
     background-repeat: no-repeat;
@@ -9,22 +9,22 @@
     padding-left: 90px;
 }
 
-.banner .wrapper {
+.main-banner .wrapper {
     display: flex;
     flex-direction: column;
     width: 630px;
 }
 
-.banner .box {
+.main-banner .box {
     margin-bottom: 40px;
 }
 
-.banner .navigation {
+.main-banner .navigation {
     display: flex;
     justify-content: space-around;
 }
 
-.banner .navigation .button {
+.main-banner .navigation .button {
     background-color: #30336B;
     box-shadow: 5px 5px 0px #7C5E99;
 }
