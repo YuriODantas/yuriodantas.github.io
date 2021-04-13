@@ -1,12 +1,10 @@
 .section{
-    box-sizing: border-box;
     background-color: #30336B;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-
-    height: 740px;
     padding-top: 105px;
     padding-bottom: 175px;
     border-bottom: 10px solid #7C5E99;
+}
+
+.section .main-title{
+    margin-bottom: 60px;
 }
