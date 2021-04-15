@@ -13,3 +13,18 @@
 .main-button:hover {
     transform: scale(1.08);
 }
+
+
+.main-button.-second {
+    background-color: #30336B;
+    box-shadow: 5px 5px 0px #7C5E99;
+}
+
+.main-button.-full{
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
