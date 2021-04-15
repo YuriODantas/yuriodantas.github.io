@@ -1,7 +1,7 @@
 .main-section {
     background-color: #30336B;
-    padding-top: 105px;
-    padding-bottom: 175px;
+    padding-top: 70px;
+    padding-bottom: 100px;
     border-bottom: 10px solid #7C5E99;
 }
 
@@ -15,4 +15,12 @@
 
 .main-section.-bdFirst {
     border-bottom: 10px solid #30336B;
+}
+
+.main-section.-bgPurple {
+    background-color: #7C5E99;
+}
+
+.main-section.-bdBlack {
+    border-bottom: 10px solid #000;
 }
