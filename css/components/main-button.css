@@ -21,6 +21,18 @@
     box-shadow: 5px 5px 0px #7C5E99;
 }
 
+.main-button.-third {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    
+    background-color: #05C46B;
+    box-shadow: 2px 2px 0px #7C5E99;
+
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+}
+
 .main-button.-full{
     box-sizing: border-box;
     width: 100%;
