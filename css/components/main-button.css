@@ -8,6 +8,7 @@
     color: #E9E8E8;
     font-size: 20px;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .main-button:hover {
@@ -27,4 +28,8 @@
     font-weight: 300;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.main-button.-full:hover {
+    transform: scale(1.01);
 }
