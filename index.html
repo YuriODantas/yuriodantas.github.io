@@ -41,11 +41,13 @@
     <header class="main-header">
         <h1 class="main-logo">YODa</h1>
         <nav>
-            <a class="main-action" href="" lang="en">Skills</a>
-            <a class="main-action" href="">Projetos</a>
-            <a class="main-action" href="">Sobre</a>
-            <a class="main-action" href="">Contatos</a>
-            <a class="main-button" href="" lang="en">Download CV</a>
+            <a class="main-action" href="#skills" lang="en">Skills</a>
+            <a class="main-action" href="#projects">Projetos</a>
+            <a class="main-action" href="#about">Sobre</a>
+            <a class="main-action" href="#contacts">Contatos</a>
+            <a class="main-button"
+                href="https://drive.google.com/file/d/1ucLYWprMr0UEZ7ncVA5ylsMBCY0uYiD1/view?usp=sharing"
+                lang="en">Download CV</a>
         </nav>
     </header>
 
@@ -57,11 +59,13 @@
             </div>
 
             <div class="navigation">
-                <a class="main-button -second" href="" lang="en">Download CV</a>
-                <a class="main-button -second" href="">Contatos</a>
+                <a class="main-button -second"
+                    href="https://drive.google.com/file/d/1ucLYWprMr0UEZ7ncVA5ylsMBCY0uYiD1/view?usp=sharing"
+                    lang="en">Download CV</a>
+                <a class="main-button -second" href="#contacts">Contatos</a>
             </div>
         </div>
-        
+
         <div class="main-profile">
             <div class="navigation">
                 <h2 class="main-logo">Me.exe</h2>
@@ -74,7 +78,7 @@
         </div>
     </section>
 
-    <section class="main-section">
+    <section id="skills" class="main-section">
         <h2 class="main-title" lang="en">Skills</h2>
 
         <div class="wrapper-skill">
@@ -82,7 +86,7 @@
                 <img class="icon" src="./assets/img/ico_html5.png" alt="Logo do HTML5 em pixel art">
                 <div class="right">
                     <h3 class="title">HTML</h3>
-                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                    <progress class="progress-bar" max="100" value="80">80%</progress>
                 </div>
             </article>
 
@@ -90,7 +94,7 @@
                 <img class="icon" src="./assets/img/ico_nodejs.png" alt="Logo do NodeJs em pixel art">
                 <div class="right">
                     <h3 class="title">NodeJS</h3>
-                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                    <progress class="progress-bar" max="100" value="40">40%</progress>
                 </div>
             </article>
 
@@ -98,7 +102,7 @@
                 <img class="icon" src="./assets/img/ico_css3.png" alt="Logo do CSS3 em pixel art">
                 <div class="right">
                     <h3 class="title">CSS</h3>
-                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                    <progress class="progress-bar" max="100" value="65">65%</progress>
                 </div>
             </article>
 
@@ -106,7 +110,7 @@
                 <img class="icon" src="./assets/img/ico_react.png" alt="Logo do React em pixel art">
                 <div class="right">
                     <h3 class="title">React</h3>
-                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                    <progress class="progress-bar" max="100" value="40">40%</progress>
                 </div>
             </article>
 
@@ -114,7 +118,7 @@
                 <img class="icon" src="./assets/img/ico_js.png" alt="Logo do JavaScript em pixel art">
                 <div class="right">
                     <h3 class="title">JavaScript</h3>
-                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                    <progress class="progress-bar" max="100" value="50">50%</progress>
                 </div>
             </article>
 
@@ -122,13 +126,13 @@
                 <img class="icon" src="./assets/img/ico_restapi.png" alt="Logo do Rest API em pixel art">
                 <div class="right">
                     <h3 class="title">Rest API</h3>
-                    <progress class="progress-bar" max="100" value="70">70%</progress>
+                    <progress class="progress-bar" max="100" value="40">40%</progress>
                 </div>
             </article>
         </div>
     </section>
 
-    <section class="main-section -bgBlack -bdFirst">
+    <section id="projects" class="main-section -bgBlack -bdFirst">
         <h2 class="main-title">Projetos</h2>
 
         <div class="wrapper-card">
@@ -141,7 +145,7 @@
         </div>
     </section>
 
-    <section class="main-section -bgPurple -bdBlack">
+    <section id="about" class="main-section -bgPurple -bdBlack">
         <h2 class="main-title">Sobre</h2>
 
         <section class="main-carousel">
@@ -157,9 +161,11 @@
                     </figure>
                     <figure class="node-card">
                         <figcaption class="title">2014 a 2019</figcaption>
-                        <div class="logo">
-                            <img src="./assets/img/logo-prepara.png" alt="Logo da Prepara Cursos">
-                        </div>
+                        <a href="https://pt-br.facebook.com/preparacursospg">
+                            <div class="logo">
+                                <img src="./assets/img/logo-prepara.png" alt="Logo da Prepara Cursos">
+                            </div>
+                        </a>
                     </figure>
                 </div>
             </div>
@@ -172,12 +178,11 @@
             professor na maior escola de cursos profissionalizantes do Brasil, Prepara Cursos, a 5 anos. Possuo
             habilidades
             em Manutenção preventiva e corretiva de computadores. Atualmente estou estudando a área de Programação, pois
-            é a
-            minha paixão.
+            é a minha paixão.
         </p>
     </section>
 
-    <form class="main-form">
+    <form id="contacts" class="main-form">
         <legend class="main-title">Contatos</legend>
 
         <label class="main-label" for="name">Nome</label>

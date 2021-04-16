@@ -13,4 +13,5 @@
 
 .main-form .main-input.-textarea{
     margin-bottom: 40px;
+    resize: none;
 }

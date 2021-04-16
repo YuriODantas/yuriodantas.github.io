@@ -1,3 +1,8 @@
 .card-project{
     box-shadow: 10px 10px 0px #E9E8E8;
+    transition: transform 100ms cubic-bezier(0, 0, 0.93, 2.58);
+}
+
+.card-project:hover {
+    transform: scale(1.08);
 }
