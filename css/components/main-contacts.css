@@ -1,0 +1,29 @@
+.main-contacts{
+    padding: 50px 40px;
+    background-color: #485460;
+}
+
+.main-contacts .main-title{
+    margin-bottom: 50px;
+}
+
+.contact-box{   
+    width: 300px;
+    height: 300px;
+
+    padding: 10px;
+    
+    background-color: #30336B;
+    box-shadow: 10px 10px 0px #7C5E99;
+}
+
+.contact-box .navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.contact-box .image{
+    margin-top: 10px;
+    width: 300px;
+}

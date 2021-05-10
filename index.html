@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="./css/components/main-carousel.css">
     <link rel="stylesheet" href="./css/components/main-description.css">
     <link rel="stylesheet" href="./css/components/main-footer.css">
-    <link rel="stylesheet" href="./css/components/main-form.css">
+    <link rel="stylesheet" href="./css/components/main-contacts.css">
     <link rel="stylesheet" href="./css/components/main-header.css">
     <link rel="stylesheet" href="./css/components/main-input.css">
     <link rel="stylesheet" href="./css/components/main-label.css">
@@ -35,6 +35,7 @@
     <link rel="stylesheet" href="./css/components/skill-tec.css">
     <link rel="stylesheet" href="./css/components/wrapper-card.css">
     <link rel="stylesheet" href="./css/components/wrapper-skill.css">
+    <link rel="stylesheet" href="./css/components/wrapper-contacts.css">
     <title>Yuri O. Dantas</title>
 </head>
 
@@ -188,20 +189,50 @@
         </p>
     </section>
 
-    <form id="contacts" class="main-form">
-        <legend class="main-title">Contatos</legend>
+    <section id="contacts" class="main-contacts">
+        <h2 class="main-title">Contatos</h2>
 
-        <label class="main-label" for="name">Nome</label>
-        <input class="main-input" id="name" type="text" required>
+        <div class="wrapper-contacts">
+            <div class="contact-box">
+                <div class="navigation">
+                    <h2 class="main-logo">Email</h2>
+                    <div>
+                        <button class="main-button -third">_</button>
+                        <button class="main-button -third">x</button>
+                    </div>
+                </div>
+                <a href="mailto:yuridantasd@gmail.com">
+                    <img class="image" src="./assets/img/contact-email-logo.png" alt="email">
+                </a>
+            </div>
 
-        <label class="main-label" for="email">Email</label>
-        <input class="main-input" id="email" type="email" required>
+            <div class="contact-box">
+                <div class="navigation">
+                    <h2 class="main-logo">LinkedIn</h2>
+                    <div>
+                        <button class="main-button -third">_</button>
+                        <button class="main-button -third">x</button>
+                    </div>
+                </div>
+                <a href="https://www.linkedin.com/in/yuriodantas/">
+                    <img class="image" src="./assets/img/contact-linkedin-logo.png" alt="LinkedIn">
+                </a>
+            </div>
 
-        <label class="main-label" for="message">Mensagem</label>
-        <textarea class="main-input -textarea" id="message" required></textarea>
-
-        <button class="main-button -full -second" type="submit">Enviar</button>
-    </form>
+            <div class="contact-box">
+                <div class="navigation">
+                    <h2 class="main-logo">GitHub</h2>
+                    <div>
+                        <button class="main-button -third">_</button>
+                        <button class="main-button -third">x</button>
+                    </div>
+                </div>
+                <a href="https://github.com/YuriODanta">
+                    <img class="image" src="./assets/img/contact-github-logo.png" alt="Github">
+                </a>
+            </div>
+        </div>
+    </section>
 
     <footer class="main-footer">
         <a class="action" href="https://www.linkedin.com/in/yuriodantas/" target="_blank">
