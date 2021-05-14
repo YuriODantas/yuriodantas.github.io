@@ -36,10 +36,65 @@
     background-color: #E8E8E8;
 }
 
-.node-card.-clean .logo{
+.node-card.-clean .logo {
     padding: 0;
 }
 
-.node-card.-first .logo{
+.node-card.-first .logo {
     background-color: #30336B;
+}
+
+@media (max-width: 765px) {
+    .node-card .title {
+        font-size: 18px;
+    }
+    .node-card::before {
+        bottom: 135px;
+    }
+}
+
+@media (max-width: 587px) {
+    .node-card .title {
+        font-size: 16px;
+    }
+    .node-card::before {
+        bottom: 104px;
+    }
+    .node-card .logo{
+        height: 100px;
+    }
+    .node-card .logo img{
+        width: 100px;
+    }
+}
+
+@media (max-width: 533px) {
+    .node-card .title {
+        text-align: center;
+    }
+    .node-card::before {
+        display: none;
+    }
+    .node-card .logo{
+        height: 100px;
+    }
+    .node-card .logo img{
+        width: 100px;
+    }
+}
+
+@media (max-width: 533px) {
+    .node-card .title {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .node-card::before {
+        display: none;
+    }
+    .node-card .logo{
+        height: 70px;
+    }
+    .node-card .logo img{
+        width: 70px;
+    }
 }
