@@ -3,3 +3,10 @@
     justify-content: space-evenly;
     margin-bottom: 80px;
 }
+
+@media (max-width: 1024px) {
+    .wrapper-contacts{
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -27,3 +27,9 @@
     margin-top: 10px;
     width: 300px;
 }
+
+@media (max-width: 1024px) {
+    .contact-box{
+        margin-bottom: 40px;
+    }
+}
