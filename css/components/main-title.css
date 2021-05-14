@@ -5,3 +5,16 @@
     text-shadow: 4px 4px 0px #000;
     text-align: center;
 }
+
+
+@media (max-width: 1024px) {
+    .main-title{
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 425px) {
+    .main-title{
+        font-size: 26px;
+    }
+}

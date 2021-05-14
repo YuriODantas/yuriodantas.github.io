@@ -1,22 +1,43 @@
-.main-profile{
+.main-profile {
     position: absolute;
     top: 116px;
     right: 90px;
-    
     width: 300px;
     height: 340px;
-
     padding: 10px;
-    
     background-color: #30336B;
     box-shadow: 10px 10px 0px #7C5E99;
 }
 
-.main-profile .photo{
+.main-profile .photo {
     width: 100%;
 }
 
 .main-profile .navigation {
     justify-content: space-between;
     margin-bottom: 10px;
+}
+
+@media (max-width: 1024px) {
+    .main-profile {
+        width: 250px;
+        height: 300px;
+        right: 50px;
+    }
+}
+
+@media (max-width: 950px) {
+    .main-profile {
+        width: 200px;
+        height: 250px;
+    }
+    .main-profile .navigation .main-logo {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 880px) {
+    .main-profile{
+        display: none;
+    }
 }
