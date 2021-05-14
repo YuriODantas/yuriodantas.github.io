@@ -2,3 +2,10 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+@media (max-width: 900px) {
+    .wrapper-card{
+        flex-direction: column;
+        align-items: center;
+    }
+}
