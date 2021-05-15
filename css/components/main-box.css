@@ -14,4 +14,8 @@
     .main-box {
         padding: 42px 25px;
     }
+    .main-box .main-title {
+        font-size: 18px;
+        text-shadow: 2px 2px 0px #000;
+    }
 }

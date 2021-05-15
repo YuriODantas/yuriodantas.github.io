@@ -6,28 +6,26 @@
     color: #E9E8E8;
 }
 
-.skill-tec .icon{
+.skill-tec .icon {
     margin-right: 25px;
     width: 90px;
 }
 
-.skill-tec .right{
+.skill-tec .right {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-.skill-tec .main-title{
+.skill-tec .main-title {
     margin-bottom: 10px;
 }
 
 @media (max-width: 425px) {
     .skill-tec {
-        font-size: 16px;
+        font-size: 14px;
     }
-    
-    .skill-tec .icon{
-        width: 70px;
-        margin-left: 30px;
+    .skill-tec .icon {
+        width: 60px;
     }
 }
