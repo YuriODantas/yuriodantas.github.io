@@ -8,7 +8,14 @@
 }
 
 @media (max-width: 900px) {
-    .card-project{
+    .card-project {
         margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 425px) {
+    .card-project {
+        width: 200px;
+        margin-bottom: 50px;
     }
 }
