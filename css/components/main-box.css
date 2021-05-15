@@ -11,7 +11,7 @@
 }
 
 @media (max-width: 425px) {
-   .main-box{
-    padding: 42px 0;
-   }
+    .main-box {
+        padding: 42px 25px;
+    }
 }

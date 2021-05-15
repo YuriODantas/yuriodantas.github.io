@@ -26,19 +26,34 @@
 }
 
 @media (max-width: 1024px) {
-    .main-banner .wrapper{
+    .main-banner .wrapper {
         width: 500px;
-    }    
+    }
 }
 
 @media (max-width: 425px) {
-    .main-banner{
-        height: 70vh;
+    .main-banner {
+        height: 90vh;
         padding-top: 60px;
-        padding-left: 20px; 
+        padding-left: 20px;
     }
-
-    .main-banner .wrapper{
+    .main-banner .wrapper {
         width: 375px;
-    }  
+    }
+}
+
+@media (max-width: 407px) {
+    .main-banner {
+        padding: 115px 0 0 0;
+    }
+    .main-banner .wrapper {
+        align-items: center;
+        width: 100%;
+    }
+    .main-banner .navigation {
+        width: 90%;
+    }
+    .main-banner .navigation .main-button {
+        font-size: 14px;
+    }
 }
