@@ -1,18 +1,16 @@
-.main-contacts{
+.main-contacts {
     padding: 50px 40px;
     background-color: #485460;
 }
 
-.main-contacts .main-title{
+.main-contacts .main-title {
     margin-bottom: 50px;
 }
 
-.contact-box{   
+.contact-box {
     width: 300px;
     height: 300px;
-
     padding: 10px;
-    
     background-color: #30336B;
     box-shadow: 10px 10px 0px #7C5E99;
 }
@@ -23,13 +21,32 @@
     margin-bottom: 10px;
 }
 
-.contact-box .image{
+.contact-box .image {
     margin-top: 10px;
     width: 300px;
 }
 
 @media (max-width: 1024px) {
-    .contact-box{
+    .contact-box {
         margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 425px) {
+    .contact-box {
+        width: 200px;
+        height: 200px;
+    }
+    .contact-box .image {
+        margin-top: 4px;
+        width: 200px;
+    }
+    .contact-box .main-logo {
+        font-size: 14px;
+    }
+    .contact-box .main-button {
+        font-size: 10px;
+        width: 20px;
+        height: 20px;
     }
 }
